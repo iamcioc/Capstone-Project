@@ -1,0 +1,114 @@
+.fa-facebook, .fa-twitter, .fa-instagram{
+    color: white ;
+}
+
+.bg{
+    background-image: url("././Asset/");
+    background-size: cover !important;
+    height: 70rem !important;
+    background-color: black !important;
+
+}
+.nav-text{
+    color: white!important;
+}
+.bt-skills{
+    background-color: #407a7e;
+    color: white;
+    width: 180px;
+    margin: 5px;
+}
+
+.bt-portfolio {
+    background-color: #eabb00;
+    color: black;
+    margin: 5px;
+}
+
+.name {
+    padding-bottom: 15px;
+}
+.feature-section{
+    text-align: center;
+    margin: 35px;
+}
+
+.speed-icon, .mobile-icon, .lightbulb-icon, .rocket-icon{
+    color: blue;
+} 
+.about-section{
+    text-align: center;
+}
+.image{
+    width: 300px;
+    height: 300x;;
+    border-radius: 150px;
+    margin-top: 50px;
+    background-image: black;
+}
+.img-text{
+    margin-top: 15px;
+}
+p{
+    color: black;
+}
+
+.btn-facebook, .btn-twitter, .btn-instagram{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+.html-icon, .css-icon, .js-icon,
+.node-icon, .react-icon, .vue-icon,
+.database-icon, .git-icon{
+    color: black;
+    margin-top: 60px; 
+}
+
+.project-1, .project-2, .project-3{
+    margin-top: 30px;
+}
+
+
+.project-section{
+    text-align: center;
+    
+}
+
+.contact-section{
+    text-align: center;
+}
+/* .card{
+} */
+.contact-forms{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+ 
+  .html-icon, .css-icon, .js-icon,
+  .node-icon, .react-icon, .vue-icon,
+  .database-icon, .git-icon{
+    animation-name: rotate !important;
+    animation-timing-function: linear !important;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+
